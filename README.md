@@ -18,7 +18,7 @@ chmod +x install-cloudflared.sh
 ./install-cloudflared.sh
 ```
 
-- ⏳ This step may take a few minutes while Cloudflared is compiled.
+- ⏳ This step may take a few minutes while `cloudflared` is being compiled.
 
 ### Step 4: Verify the installation
 
