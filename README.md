@@ -3,15 +3,26 @@ A shell script to install cloudflared on a device running Termux with the pkg pa
 
 ## Setup
 
+### Step 1: Download the installation script
 ```bash
-# Download the script
 curl -LO https://raw.githubusercontent.com/Luzefiru/cloudflared-termux-install-script/refs/heads/main/install-cloudflared.sh
-# Make it executable
-chmod +x install-cloudflared.sh
-# Run it
-./install-cloudflared.sh
+```
 
-# Verify that cloudflared is installed
+### Step 2: Make the script executable
+```bash
+chmod +x install-cloudflared.sh
+```
+
+### Step 3: Run the installer
+```bash
+./install-cloudflared.sh
+```
+
+- ⏳ This step may take a few minutes while Cloudflared is compiled.
+
+### Step 4: Verify the installation
+
+```bash
 cloudflared --version
 ```
 
