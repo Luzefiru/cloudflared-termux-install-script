@@ -36,10 +36,10 @@ This allows you to [connect to SSH servers hosted on Cloudflare Tunnels](https:/
 curl -LO https://raw.githubusercontent.com/Luzefiru/cloudflared-termux-install-script/refs/heads/main/setup-cloudflared-client.sh && chmod +x setup-cloudflared-client.sh && ./setup-cloudflared-client.sh
 ```
 
-## OPTIONAL: Cleanup Scripts
+## OPTIONAL: Post-install Clean Up
 
 ```bash
-rm -f ./setup-cloudflared-client.sh ./install-cloudflared.sh
+rm -fr ./setup-cloudflared-client.sh ./install-cloudflared.sh ./cloudflared ./go
 ```
 
 ## References
