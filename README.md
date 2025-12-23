@@ -28,7 +28,7 @@ chmod +x install-cloudflared.sh
 cloudflared --version
 ```
 
-## OPTIONAL: Setup cloudflared SSH Client Proxy
+## OPTIONAL: Setup SSH Proxy for Cloudflare Tunnel Hostname
 
 This allows you to [connect to SSH servers hosted on Cloudflare Tunnels](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/use-cases/ssh/ssh-cloudflared-authentication/#2-connect-as-a-user).
 
